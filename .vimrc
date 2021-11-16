@@ -1,3 +1,6 @@
+" Force use of python3
+if has('python3')
+endif
 set term=screen-256color
 set autoindent
 set number
@@ -29,5 +32,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'johngrib/vim-game-snake'
 Plug 'jmanoel7/vim-games'
 Plug 'vim/killersheep'
+Plug 'ycm-core/YouCompleteMe'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
